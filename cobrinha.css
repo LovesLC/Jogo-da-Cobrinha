@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.container-jogo {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(white, black);
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+#gameCanvas {
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#inicia {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  position: relative;
+  bottom: 450px;
+  left: 155px;
+  border: none;
+  padding: 10px;
+}
